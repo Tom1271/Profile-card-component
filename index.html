@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Frontend Mentor | Profile card component</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	</head>
+	<body>
+		<main class="background">
+			<svg
+				class="pattern-top"
+				width="978"
+				height="978"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<defs>
+					<linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+						<stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+						<stop stop-color="#53FFEE" offset="99.94%" />
+					</linearGradient>
+				</defs>
+				<ellipse
+					fill="url(#a)"
+					transform="rotate(-135 489 489)"
+					cx="489"
+					cy="489"
+					rx="489"
+					ry="488"
+					fill-rule="evenodd"
+					opacity=".5"
+				/>
+			</svg>
+			<svg
+				class="pattern-bottom"
+				width="978"
+				height="978"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<defs>
+					<linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+						<stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+						<stop stop-color="#53FFEE" offset="99.94%" />
+					</linearGradient>
+				</defs>
+				<ellipse
+					fill="url(#a)"
+					transform="scale(1 -1) rotate(45 1669.55 0)"
+					cx="489"
+					cy="489"
+					rx="489"
+					ry="488"
+					fill-rule="evenodd"
+					opacity=".25"
+				/>
+			</svg>
+
+			<div class="card df">
+				<img class="bc" src="images/bg-pattern-card.svg" />
+				<img class="photo" src="images/image-victor.jpg" alt="man-photo" />
+				<div class="name-age df">
+					<div class="name font-size">Victor Crest</div>
+					<div class="age font font-size">26</div>
+				</div>
+				<div class="city font">London</div>
+				<hr />
+				<div class="details df">
+					<div class="pattern-top"></div>
+
+					<div class="data-box">
+						<div class="numbers font-size">80K</div>
+						<div class="description font">Followers</div>
+					</div>
+
+					<div class="data-box">
+						<div class="numbers font-size">803K</div>
+						<div class="description font">Likes</div>
+					</div>
+
+					<div class="data-box">
+						<div class="numbers font-size">1.4K</div>
+						<div class="description font">Photos</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
